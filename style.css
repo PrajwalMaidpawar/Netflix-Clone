@@ -102,3 +102,64 @@ body div span button{
     position: relative;
     z-index: 1;
 }
+
+h2{
+    font-size: 32px;
+    color: white;
+    margin: 30px 108px;
+    text-align: left;
+    position: relative;
+}
+
+.flex{
+  display: flex;
+  margin: 10px 108px 0px 108px;
+  overflow-x: auto;
+  gap:2rem;
+  scroll-behavior:smooth;
+  padding: 1rem;
+}
+
+.flex::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.items{
+  flex: 0 0 auto; /* Prevent shrinking */
+  width: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.card{
+    color: white;
+    margin: 10px 108px 10px 108px;
+    width: 20vw;
+    height: 25vh;
+    background-color: rgba(109, 22, 180, 0.416);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+section div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section div :first-child{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+section div :nth-child(2){
+    font-size: 18px;
+    margin-top: 10px;
+}
